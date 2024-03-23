@@ -282,7 +282,7 @@ def M1(ids,names,psd):
                                 gtt=random.choice(xxxxx)
                                 gttt=random.choice(xxxxx)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'[FBAN/FB4A;FBAV/221.0.0.48.102;FBBV/154683426;FBDM/density=2.0,width=720,height=1280 we;FBLC/en_US;FBRV/0;FBCR/VodaCom-SA;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/TA-1024;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi,:]"
+                                ua_string = f'FBAN/FB4A;FBAV/221.0.0.48.102;FBBV/154683426;FBDM/density=2.0,width=720,height=1280 we;FBLC/en_US;FBRV/0;FBCR/VodaCom-SA;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/TA-1024;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi,:"
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'adid':adid,
